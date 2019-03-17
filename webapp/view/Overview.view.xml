@@ -1,0 +1,8 @@
+<mvc:View
+	controllerName="br.com.tasks.Tasks.controller.Overview" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	displayBlock="true" 
+	xmlns="sap.m">
+	
+	<Text text="test"/>
+</mvc:View>
