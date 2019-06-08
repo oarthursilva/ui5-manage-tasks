@@ -61,6 +61,12 @@
 		"resources": {
 			"css": [{
 				"uri": "css/style.css"
+			}, {
+				"uri": "css/header-style.css"
+			}, {
+				"uri": "css/bootstrap.min.css"
+			}, {
+				"uri": "css/search-style.css"
 			}]
 		},
 		"routing": {

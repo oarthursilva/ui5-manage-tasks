@@ -1,1 +1,26 @@
 /* Enter your custom styles here */
+
+html {
+	min-height: 100%; 
+	position: relative;
+}
+
+body {
+    box-sizing: border-box;
+    margin-bottom: 60px;
+    min-height: 100%;
+    height: 100%;
+}
+
+.appBackground {
+    background-image: linear-gradient(transparent 11px, rgba(220, 220, 200, .8) 12px, transparent 12px), linear-gradient(90deg, transparent 11px, rgba(220, 220, 200, .8) 12px, transparent 12px);
+    background-size: 100% 12px, 12px 100%;
+}
+
+.w-90 {
+	width: 90%!important;
+}
+
+span {
+	text-shadow: 0.05rem 0.05rem 0.125rem #000000
+}

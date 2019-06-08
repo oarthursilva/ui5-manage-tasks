@@ -6,6 +6,7 @@
 	
 	<App id="app"
 		busy="{appView>/busy}"
-		busyIndicatorDelay="{appView>/delay}"/>
+		busyIndicatorDelay="{appView>/delay}"
+		class="appBackground"/>
 
 </mvc:View>

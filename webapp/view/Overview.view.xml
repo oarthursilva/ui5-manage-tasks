@@ -1,8 +1,36 @@
 <mvc:View
 	controllerName="br.com.tasks.Tasks.controller.Overview" 
-	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns:mvc="sap.ui.core.mvc"
 	displayBlock="true" 
-	xmlns="sap.m">
+	xmlns="sap.m"
+	xmlns:c="br.com.tasks.Tasks.control">
 	
-	<Text text="test"/>
+	<c:FixedHeader
+		title="YOUR THOUGHTS"
+		src="src/bootstrap-solid.svg">
+		
+		<c:searchBar>
+			<c:SearchBar/>
+		</c:searchBar>
+		<c:links>
+			<c:HeaderLink text="test"/>
+			<c:HeaderLink text="test"/>
+			<c:HeaderLink text="test"/>
+		</c:links>
+		
+	</c:FixedHeader>
+	
+	
+	
+	<!-- side bar has been temporarily remove -->
+	<!--c:SideBar>
+	</c:SideBar-->
+	
+	
+	<!--c:Header title="YOUR TRAVEL THOUGHTS">
+		<c:searchBar>
+			<c:SearchBar/>
+		</c:searchBar>
+	</c:Header-->
+	
 </mvc:View>
