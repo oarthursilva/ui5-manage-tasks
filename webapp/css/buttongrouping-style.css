@@ -1,0 +1,32 @@
+.buttongrouping-wrapper {
+    align-items: center;	
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    margin: 7px auto 7px;
+    text-align: center;
+    vertical-align: middle;
+    bottom: 0;
+    left: 0;
+    background-color: #37415447;
+}
+
+.buttongrouping-content {
+    min-width: 38px;
+    min-height: 38px;
+    line-height: 38px;
+    border-radius: 10%;
+    -moz-border-radius: 10%;
+    -webkit-border-radius: 10%;
+    text-align: center;
+    color: #fafafa;
+    font-size: x-small;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-right: 5px;
+}
+
+.buttongrouping-content__background-color-selected {
+	background-color: #333d4e;
+	padding: 10px;
+}

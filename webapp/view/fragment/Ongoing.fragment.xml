@@ -1,0 +1,43 @@
+<core:FragmentDefinition 
+	xmlns="sap.m" 
+	xmlns:c="pt.com.booklog.custom"
+	xmlns:core="sap.ui.core">
+	
+	<c:HeaderTitle title="ongoing activities"/>
+									
+	<VBox
+		id="vbox_ongoing"
+		busyIndicatorDelay="{mainView>/delay}"
+		items="{
+			path: 'ongoing>/OngoingCollection'
+		}"
+		width="auto">
+		
+		<!-- startDate="{
+				parts: [{ 
+					path: 'i18n>mainStartDate'
+				},{ 
+					path: 'ongoing>StartDate' }
+				],
+        		formatter: '.formatter.dateTextFormatter'
+        	}"-->
+		
+		<c:Content
+			id="content"
+			busyIndicatorDelay="{mainView>/delay}"
+			icon="{ongoing>Icon}"
+			title="{ongoing>Title}"
+			category="{ongoing>Category}"
+			activities="{ongoing>Activities}"
+			total="{ongoing>TotalActivities}"
+			currentStatus="{ongoing>CurrentStatus}">
+			
+		</c:Content>
+	
+		<!--layoutData>
+			<FlexItemData growFactor="10"/>
+		</layoutData-->
+	
+	</VBox>
+
+</core:FragmentDefinition>

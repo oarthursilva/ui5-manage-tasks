@@ -1,0 +1,44 @@
+<core:FragmentDefinition 
+	xmlns="sap.m" 
+	xmlns:c="pt.com.booklog.custom"
+	xmlns:core="sap.ui.core">
+	
+	<c:HeaderTitle title="complete activities"/>
+									
+	<VBox
+		id="vbox_complete"
+		busyIndicatorDelay="{mainView>/delay}"
+		items="{
+			path: 'complete>/CompleteCollection'
+		}"
+		width="auto">
+		
+		<!-- endDate="{
+				parts: [{ 
+					path: 'i18n>mainEndDate'
+				},{ 
+					path: 'complete>EndDate' }
+				],
+        		formatter: '.formatter.dateTextFormatter'
+        	}"-->
+		
+		<c:Content
+			id="content_complete"
+			busyIndicatorDelay="{mainView>/delay}"
+			icon="{complete>Icon}"
+			title="{complete>Title}"
+			category="{complete>Category}"
+			activities="{complete>Activities}"
+			
+			total="{complete>TotalActivities}"
+			currentStatus="{complete>CurrentStatus}">
+			
+		</c:Content>
+	
+		<!--layoutData>
+			<FlexItemData growFactor="10"/>
+		</layoutData-->
+	
+	</VBox>
+
+</core:FragmentDefinition>

@@ -1,0 +1,39 @@
+@media all and (min-width:960px) {
+  /* put your css styles in here */
+	.customVBoxMenuPadding {
+		padding-top: .25rem;
+	    padding-bottom: .25rem;
+	}
+}
+
+@media all and (min-width:0px) and (max-width: 959px) {
+  /* put your css styles in here */
+	.customVBoxMenuPadding {
+		padding-top: .25rem;
+	    padding-bottom: .25rem;
+	}
+}
+
+input[type="search"]::-webkit-input-placeholder {
+	font-size: 16px!important;
+	font-style: normal;
+    letter-spacing: 0.015em!important;
+}
+
+input[type="search"]:-moz-placeholder {		/* Older Firefox*/
+	font-size: 16px!important;
+	font-style: normal;
+    letter-spacing: 0.015em!important;
+}
+
+input[type="search"]::-moz-placeholder {	/* Firefox 19+ */ 
+	font-size: 16px!important;
+	font-style: normal;
+    letter-spacing: 0.015em!important;
+}
+
+input[type="search"]:-ms-input-placeholder {
+	font-size: 16px!important;
+	font-style: normal;
+    letter-spacing: 0.015em!important;
+}

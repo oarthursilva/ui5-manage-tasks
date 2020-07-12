@@ -1,0 +1,18 @@
+{
+	"IncomingCollection": [{
+		"Id": "1",
+		"Icon": "dumbbell",
+		"Color": "#595386",
+		"Title": "Jogging in the park",
+		"Category": "Health",
+		"CurrentStatus": 1
+	}, {
+		"Id": "2",
+		"Icon": "dumbbell",
+		"Color": "#595386",
+		"Title": "Jogging in the park",
+		"Category": "Health",
+		"CurrentStatus": 1
+	}]
+
+}

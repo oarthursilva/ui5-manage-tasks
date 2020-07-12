@@ -1,0 +1,1 @@
+{"type":"sap.web","builders":{"configs":{}},"runners":{"configs":{}},"attributes":{"sap.watt.common.setting":["{\"projectType\":[\"sap.watt.uitools.ide.web\"],\"hcpdeploy\":{\"account\":\"p1942116286trial\",\"name\":\"booklog\",\"lastVersionWeTriedToDeploy\":\"1.0.6\"}}"]},"description":"","mixinTypes":[]}

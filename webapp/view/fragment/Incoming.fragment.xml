@@ -1,0 +1,35 @@
+<core:FragmentDefinition 
+	xmlns="sap.m" 
+	xmlns:c="pt.com.booklog.custom"
+	xmlns:core="sap.ui.core">
+	
+	<c:HeaderTitle title="incoming activities"/>
+
+	<VBox
+		id="vbox_incoming"
+		busyIndicatorDelay="{mainView>/delay}"
+		items="{
+			path: 'incoming>/IncomingCollection'
+		}"
+		width="auto">
+		
+		<c:Content
+			id="content_incoming"
+			busyIndicatorDelay="{mainView>/delay}"
+			icon="{incoming>Icon}"
+			title="{incoming>Title}"
+			category="{incoming>Category}"
+			activities="{incoming>Activities}"
+			
+			total="{incoming>TotalActivities}"
+			currentStatus="{incoming>CurrentStatus}">
+			
+		</c:Content>
+	
+		<!--layoutData>
+			<FlexItemData growFactor="10"/>
+		</layoutData-->
+	
+	</VBox>
+
+</core:FragmentDefinition>

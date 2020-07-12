@@ -1,0 +1,49 @@
+.avatar-spinner-circle {
+    width: 38px;
+    height: 38px;
+    position: relative;
+}
+
+.avatar-spinner::after {
+	content:'';
+	border-radius:100%;
+    background-image: -webkit-linear-gradient(top, #495e70 0%, #3a4ed5 100%);
+	width: 2rem;
+	height: 2rem;
+	position:absolute;
+}
+
+.avatar-spinner {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    border: 1px solid rgba(0,0,0,0);
+    background-image: -webkit-linear-gradient(top, #495e70 0%, #3a4ed5 100%);
+    -webkit-animation: progress-spinner 1.6s linear infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-duration: 2s;    
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 0s;
+    		animation: progress-spinner 1.6s linear infinite;
+			animation-timing-function: linear;
+			animation-duration: 2s;    
+		    animation-iteration-count: infinite;
+		    animation-delay: 0s;
+    box-sizing: border-box;
+}
+
+.avatar-icon {
+	position: absolute!important;
+	left: 50%; top: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 50px;
+}
+
+@keyframes progress-spinner {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

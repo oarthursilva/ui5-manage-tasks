@@ -1,0 +1,105 @@
+<c:View 
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:c="pt.com.booklog.custom"
+	xmlns:l="sap.ui.layout"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	displayBlock="false"
+	controllerName="pt.com.booklog.controller.Main"
+	height="100%">
+	
+	<Page
+		id="page"
+		busyIndicatorDelay="{mainView>/delay}"
+		class="mainView"
+		enableScrolling="false"
+		showHeader="false"
+		showFooter="false"
+		showNavButton="false">
+		
+		<content>
+		
+			<html:div id="mainView" class="content">
+				
+				<!-- Section up -->
+				<!--<html:div id="section0" class="section sectionText">
+					<html:div class="sectionText">New task goes here :)</html:div>
+				</html:div>-->
+				
+				<!-- Section middle -->
+				<!--<html:div id="section1" class="section active">	-->
+					
+					
+					<!-- Header -->
+					<core:Fragment fragmentName="pt.com.booklog.view.fragment.Main.Header" type="XML" />
+					
+					<ScrollContainer
+						id="scroll"
+						horizontal="false"
+						vertical="true">
+								
+						<content>
+					
+					<HBox
+						id="hbox_graph"
+						busyIndicatorDelay="{mainView>/delay}"
+						alignContent="Center" 
+						justifyContent="Center" 
+						alignItems="Center"
+						width="100%">
+						
+						 <c:Graph 
+							id="left"
+							target= "35" 
+							width="90%"
+							color="rgb(246, 30, 213)"
+							caption="Do"/>
+							
+						<c:Graph 
+							id="middle"
+							target="15" 
+							width="90%"
+							color="rgb(253, 219, 0)"
+							caption= "Doing"/>
+						
+						<c:Graph 
+							id="right"
+							target="50" 
+							width="90%"
+							color="rgb(169, 215, 4)"
+							caption= "Done"/>
+						
+					</HBox>
+					
+							<!-- Incoming -->
+							<core:Fragment fragmentName="pt.com.booklog.view.fragment.Incoming" type="XML" />
+							
+							<!-- Ongoing -->
+							<core:Fragment fragmentName="pt.com.booklog.view.fragment.Ongoing"  type="XML" />
+							
+							<!-- Complete -->
+							<core:Fragment fragmentName="pt.com.booklog.view.fragment.Complete" type="XML" />
+								
+						</content>
+					</ScrollContainer>
+					
+					<Input
+						type="Text"
+						placeholder="Que tarefas temos para hoje ?">
+					</Input>			
+					
+					<!--VBox 
+						id="bottom"
+						class="buttongrouping-wrapper">
+						<c:ButtonGrouping/>
+					</VBox-->
+					
+					
+				<!--</html:div>-->
+				
+			</html:div>	
+					
+		</content>
+		
+	</Page>
+</c:View>

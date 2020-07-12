@@ -1,0 +1,15 @@
+.scrollbar-wrapper {
+	height: 50%; /* ADJUSTED */
+	/* max-height: 10%; REMOVED */
+	overflow-y: scroll;
+	width: 100%;
+}
+
+.scrollbar-content {
+	overflow-y: auto;
+}
+
+.scrollbar-slide {
+	/*min-height: -webkit-min-content;*/
+	/* height: 2000px; */
+}

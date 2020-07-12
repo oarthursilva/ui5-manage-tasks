@@ -1,0 +1,36 @@
+.weekday-wrapper {
+    align-items: center;	
+
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    
+    text-align: center;
+    vertical-align: middle;
+    margin: 5px auto 0;
+}
+
+.weekday-content {
+    min-width: 38px;
+    min-height: 38px;
+    line-height: 38px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+    color: #fafafa;
+    font-size: x-small;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-right: 5px;
+}
+
+.weekday-content__background-color {
+	background-color: #313a4c;
+}
+
+.weekday-content__background-color-today {
+	background-color: #4d6a9ecc;
+	color: #fff;
+	font-weight: 700;
+}

@@ -1,0 +1,14 @@
+<c:View
+	xmlns:c="pt.com.booklog.custom"
+	controllerName="pt.com.booklog.controller.App"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	height="100%">
+	
+	<App id="app"
+		 busy="{appView>/busy}"
+		 busyIndicatorDelay="{appView>/delay}"/>
+
+	<c:Busy id="busy" busy="{appView>/busy}"/>
+	
+</c:View>

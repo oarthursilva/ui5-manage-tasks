@@ -1,0 +1,190 @@
+{
+	"_version": "1.8.0",
+	"sap.app": {
+		"id": "pt.com.booklog",
+		"type": "library",
+		"i18n": "i18n/i18n.properties",
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.40.12"
+		},
+		"dataSources": {}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": ["sap_hcb", "sap_belize"]
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "pt.com.booklog.view.App",
+			"type": "XML",
+			"async": true,
+			"id": "app"
+		},
+		"dependencies": {
+			"minUI5Version": "1.30.0",
+			"libs": {
+				"sap.ui.layout": {},
+				"sap.ui.core": {},
+				"sap.m": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "pt.com.booklog.i18n.i18n"
+				}
+			},
+			"ActivitiesCollection": {
+				"type": "sap.ui.model.json.JSONModel",
+				"settings": {},
+				"uri": "models/ActivitiesCollection.json"
+			},
+			"CompleteCollection": {
+				"type": "sap.ui.model.json.JSONModel",
+				"settings": {},
+				"uri": "models/CompleteCollection.json",
+				"preload": true
+			},
+			"IncomingCollection": {
+				"type": "sap.ui.model.json.JSONModel",
+				"settings": {},
+				"uri": "models/IncomingCollection.json",
+				"preload": true
+			},
+			"OngoingCollection": {
+				"type": "sap.ui.model.json.JSONModel",
+				"settings": {},
+				"uri": "models/OngoingCollection.json",
+				"preload": true
+			},
+			"UserCollection": {
+				"type": "sap.ui.model.json.JSONModel",
+				"settings": {},
+				"uri": "models/UserCollection.json",
+				"preload": true
+			}
+			
+		},
+		"resources": {
+			"css": [{
+				"uri": "css/avatar-style.css"
+			}, {
+				"uri": "css/busy-style.css"
+			}, {
+				"uri": "css/button-style.css"
+			}, {
+				"uri": "css/buttongrouping-style.css"
+			}, {
+				"uri": "css/content-style.css"
+			}, {
+				"uri": "css/date-style.css"
+			}, {
+				"uri": "css/devices-style.css"
+			}, {
+				"uri": "css/footer-style.css"
+			}, {
+				"uri": "css/fullpage.css"
+			}, {
+				"uri": "css/graph-style.css"
+			}, {
+				"uri": "css/headertitle-style.css"
+			}, {
+				"uri": "css/imagecloud-style.css"
+			}, {
+				"uri": "css/loader-style.css"
+			}, {
+				"uri": "css/menubutton-style.css"
+			}, {
+				"uri": "css/profile-style.css"
+			}, {
+				"uri": "css/redefined-styles.css"
+			}, {
+				"uri": "css/scrollbar-style.css"
+			}, {
+				"uri": "css/style.css"
+			}, {
+				"uri": "css/summary-style.css"
+			}, {
+				"uri": "css/swiper.css"
+			}, {
+				"uri": "css/weekday-style.css"
+			}, {
+				"uri": "https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+			}, {
+				"uri": "https://cdn.gitcdn.link/cdn/angular/bower-material/v1.1.0-rc4/angular-material.css"
+			}]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "pt.com.booklog.view",
+				"controlAggregation": "pages",
+				"controlId": "app",
+				"bypassed": {
+					"target": []
+				},
+				"async": true
+			},
+			"routes": [{
+				"pattern": "",
+				"name": "main",
+				"target": ["main"]
+			}, {
+				"name": "profile",
+				"pattern": "me",
+				"titleTarget": "",
+				"greedy": false,
+				"target": ["profile"]
+			}],
+			"targets": {
+				"main": {
+					"viewName": "Main",
+					"title": "{i18n>mainTitle}",
+					"viewId": "main",
+					"viewLevel": 1
+				},
+				"profile": {
+					"viewName": "Profile",
+					"transition": "show",
+					"title": "{i18n>mainTitle}",
+					"viewId": "profile",
+					"viewLevel": 2
+				},
+				"app": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewName": "App",
+					"controlId": "",
+					"viewId": "app",
+					"title": "{i18n>mainTitle}"
+				}
+			}
+		}
+	}
+}
