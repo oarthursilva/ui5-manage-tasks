@@ -1,0 +1,21 @@
+<svg 
+	version="1.1"
+	viewBox="10 10 30 30"
+	xml:space="preserve" 
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="100%">
+	
+	<defs>
+		<style>.cls-circle {fill: none;stroke-width: 3;stroke: #24303a;}</style>
+		<style>.cls-path {stroke: #1ed5f6;}</style>
+		<style>.cls-text {dominant-baseline: central;text-anchor: middle;font-size: 5px;fill: Linen;}</style>
+		<style>.cls-textformat { background: #1e2730;font-family: Arial;font-weight: 100;color: rgba(0, 0, 0, 0.2);}</style>
+	</defs>
+
+	<g transform="translate(25 25) rotate(-90)">
+		<circle class="cls-circle" r="10" /> 
+		<path id="" class="cls-path" d=""></path>
+	</g>
+	<text class="cls-text cls-textformat" x="25" y="25" >0</text>
+</svg>

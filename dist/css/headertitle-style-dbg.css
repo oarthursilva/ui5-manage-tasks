@@ -1,0 +1,30 @@
+.headertitle {
+	font-size: x-small;
+    /* margin-top: 5px; */
+    /* margin-bottom: 5px; */
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+
+
+.headertitle:before {
+    border-top: 1px solid #273447;
+    content:"";
+    margin: 0 auto; /* this centers the line to the full width specified */
+    position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 50%; 
+    left: 1rem; 
+    right: 1rem; 
+    bottom: 0;
+    width: 90%;
+    z-index: -1;
+}
+
+.headertitle span { 
+    /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+    color: #445b7d;
+    background: #1f2731;
+    padding: 0 5px; 
+}

@@ -1,0 +1,120 @@
+.cls-circle {
+	fill: none;
+    stroke-width: 5;
+    stroke: #252b33;
+    opacity: .9;
+}
+
+.cls-path {
+	fill: transparent;
+	stroke-width: 3;
+	stroke-linecap: round;
+	/*stroke: #d5f61e;*/
+}
+
+.cls-textformat { 
+	background: #1e2730;
+	font-family: Lato, sans-serif;
+	font-weight: 700;
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.cls-text {
+	dominant-baseline: central;
+	text-anchor: middle;
+	font-size: 5px;
+	fill: Linen;
+}
+
+.graph-wrapper {
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	/*height: 80vh;
+	min-height:20em;*/
+	width:80%;
+	margin:0 auto;
+}
+
+.graph-innerdiv {
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	outline: none;
+}
+
+.graph-caption {
+	color: linen;
+	font-family: 'Varela Round', Lato, sans-serif;
+	font-weight: 500;
+	text-align:center;
+	margin-top: -.1rem;
+}
+
+/* animation ------------------------------------   */
+.cls-animation {
+	-webkit-animation: AnimationName 5s ease infinite;
+	-moz-animation: AnimationName 5s ease infinite;
+	animation: AnimationName 5s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+
+@keyframes AnimationName { 
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+/* end of animation ------------------------------   */
+
+
+@media only screen and (max-width: 320px) {
+	.graph-caption__font-size {
+		font-size: small!important;
+		font-weight: 900;
+	}
+	
+	.graph__width {
+		width: 80%;
+	}
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px){
+	.graph-caption__font-size {
+		font-size: small!important;
+		font-weight: 900;
+    }
+    
+    .graph__width {
+		width: 50%;
+	}
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px){
+	.graph-caption__font-size {
+		font-size: small!important;
+		font-weight: 900;
+	}
+	
+	.graph__width {
+		width: 40%;
+	}
+}
+@media only screen and (min-width: 1201px) {
+	.graph-caption__font-size {
+		font-size: small!important;
+    	font-weight: 900;
+	}
+    
+    .graph__width {
+		width: 40%;
+	}
+}

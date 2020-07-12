@@ -1,0 +1,12 @@
+[
+	{
+		"Id": "Book", 
+		"Value": 20
+	}, {
+		"Id": "Trip",
+		"Value": 5
+	}, {
+		"Id": "Health Habits",
+		"Value": 1
+	}
+]

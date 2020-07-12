@@ -1,0 +1,41 @@
+{
+	"OngoingCollection": [{
+		"Id": "1",
+		"Icon": "book",
+		"Color": "#4c98cf",
+		"Title": "Cem anos de solidão",
+		"Category": "Book",
+		"CurrentStatus": 2,
+		"StartDate": "2018-08-25",
+		"EndDate": "",
+		"Images": [
+			"http://img.loja.editorasaraiva.com.br/128018-200-0.jpg",
+			"https://images.livrariasaraiva.com.br/imagemnet/imagem.aspx/?pro_id=4050883&qld=90&l=430&a=-1",
+			"https://covers.oreillystatic.com/images/0636920050728/lrg.jpg",
+			"https://images.livrariasaraiva.com.br/imagemnet/imagem.aspx/?pro_id=2803496&qld=90&l=430&a=-1"
+		]
+	}, {
+		"Id": "2",
+		"Icon": "book",
+		"Color": "#4c98cf",
+		"Title": "Dom Casmurro",
+		"Category": "Book",
+		"CurrentStatus": 2,
+		"StartDate": "2018-08-24",
+		"EndDate": "",
+		"Images": [
+			"http://img.loja.editorasaraiva.com.br/128018-200-0.jpg",
+			"https://images.livrariasaraiva.com.br/imagemnet/imagem.aspx/?pro_id=4050883&qld=90&l=430&a=-1",
+			"https://covers.oreillystatic.com/images/0636920050728/lrg.jpg",
+			"https://images.livrariasaraiva.com.br/imagemnet/imagem.aspx/?pro_id=2803496&qld=90&l=430&a=-1"
+		]
+	}, {
+		"Id": "1",
+		"Icon": "suitcase",
+		"Color": "#4873a8",
+		"Title": "Portugal",
+		"Category": "Trip",
+		"CurrentStatus": 2,
+		"StartDate": "2018-01-20"
+	}]
+}

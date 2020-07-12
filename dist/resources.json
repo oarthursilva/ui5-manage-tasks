@@ -1,0 +1,965 @@
+{
+    "resources": [
+        {
+            "name": "Component-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "controller/App-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/App.controller.js"
+        },
+        {
+            "name": "controller/BaseController-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/BaseController.js"
+        },
+        {
+            "name": "controller/Main-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/Main.controller.js"
+        },
+        {
+            "name": "css/avatar-style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/avatar-style.css"
+        },
+        {
+            "name": "css/busy-style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/busy-style.css"
+        },
+        {
+            "name": "css/button-style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/button-style.css"
+        },
+        {
+            "name": "css/buttongrouping-style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/buttongrouping-style.css"
+        },
+        {
+            "name": "css/content-style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/content-style.css"
+        },
+        {
+            "name": "css/date-style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/date-style.css"
+        },
+        {
+            "name": "css/devices-style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/devices-style.css"
+        },
+        {
+            "name": "css/footer-style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/footer-style.css"
+        },
+        {
+            "name": "css/fullpage-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/fullpage.css"
+        },
+        {
+            "name": "css/graph-style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/graph-style.css"
+        },
+        {
+            "name": "css/headertitle-style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/headertitle-style.css"
+        },
+        {
+            "name": "css/imagecloud-style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/imagecloud-style.css"
+        },
+        {
+            "name": "css/loader-style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/loader-style.css"
+        },
+        {
+            "name": "css/menubutton-style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/menubutton-style.css"
+        },
+        {
+            "name": "css/profile-style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/profile-style.css"
+        },
+        {
+            "name": "css/redefined-styles-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/redefined-styles.css"
+        },
+        {
+            "name": "css/scrollbar-style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/scrollbar-style.css"
+        },
+        {
+            "name": "css/style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
+            "name": "css/summary-style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/summary-style.css"
+        },
+        {
+            "name": "css/swiper-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/swiper.css"
+        },
+        {
+            "name": "css/weekday-style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/weekday-style.css"
+        },
+        {
+            "name": "custom/Avatar-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "custom/Avatar.js"
+        },
+        {
+            "name": "custom/Busy-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "custom/Busy.js"
+        },
+        {
+            "name": "custom/Button-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "custom/Button.js"
+        },
+        {
+            "name": "custom/ButtonGrouping-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "custom/ButtonGrouping.js"
+        },
+        {
+            "name": "custom/Content-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "custom/Content.js"
+        },
+        {
+            "name": "custom/Date-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "custom/Date.js"
+        },
+        {
+            "name": "custom/Footer-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "custom/Footer.js"
+        },
+        {
+            "name": "custom/Graph-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "custom/Graph.js"
+        },
+        {
+            "name": "custom/HeaderTitle-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "custom/HeaderTitle.js"
+        },
+        {
+            "name": "custom/Heart-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "custom/Heart.js"
+        },
+        {
+            "name": "custom/ImageCloud-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "custom/ImageCloud.js"
+        },
+        {
+            "name": "custom/MenuButton-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "custom/MenuButton.js"
+        },
+        {
+            "name": "custom/Profile-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "custom/Profile.js"
+        },
+        {
+            "name": "custom/ScrollContainer-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "custom/ScrollContainer.js"
+        },
+        {
+            "name": "custom/Summary-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "custom/Summary.js"
+        },
+        {
+            "name": "custom/SummaryButton-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "custom/SummaryButton.js"
+        },
+        {
+            "name": "custom/VBox-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "custom/VBox.js"
+        },
+        {
+            "name": "custom/Weekday-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "custom/Weekday.js"
+        },
+        {
+            "name": "di.code-validation.core_issues.json"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "lib/fullpage-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "lib/fullpage.extensions.min-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "lib/fullpage.extensions.min.js"
+        },
+        {
+            "name": "lib/fullpage.js"
+        },
+        {
+            "name": "lib/fullpage.min-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "lib/fullpage.min.js"
+        },
+        {
+            "name": "lib/fullpage.min.js.map"
+        },
+        {
+            "name": "lib/moment-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "lib/moment.js"
+        },
+        {
+            "name": "lib/swiper-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "lib/swiper.js"
+        },
+        {
+            "name": "lib/swipervertical-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "lib/swipervertical.js"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "model/formatter-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "model/formatter.js"
+        },
+        {
+            "name": "model/models-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "models/ActivitiesCollection.json"
+        },
+        {
+            "name": "models/CompleteCollection.json"
+        },
+        {
+            "name": "models/IncomingCollection.json"
+        },
+        {
+            "name": "models/OngoingCollection.json"
+        },
+        {
+            "name": "models/UserCollection.json"
+        },
+        {
+            "name": "neo-app.json"
+        },
+        {
+            "name": "src/02.png"
+        },
+        {
+            "name": "src/03.png"
+        },
+        {
+            "name": "src/04.png"
+        },
+        {
+            "name": "src/05.png"
+        },
+        {
+            "name": "src/06.png"
+        },
+        {
+            "name": "src/07.png"
+        },
+        {
+            "name": "src/08.png"
+        },
+        {
+            "name": "src/09.png"
+        },
+        {
+            "name": "src/10.png"
+        },
+        {
+            "name": "src/avatar.png"
+        },
+        {
+            "name": "src/body/books-background.jpg"
+        },
+        {
+            "name": "src/body/health-background.png"
+        },
+        {
+            "name": "src/body/trips-background.png"
+        },
+        {
+            "name": "src/booklog-s.png"
+        },
+        {
+            "name": "src/health.png"
+        },
+        {
+            "name": "src/help.svg"
+        },
+        {
+            "name": "src/hr-repeat.png"
+        },
+        {
+            "name": "src/loader.svg"
+        },
+        {
+            "name": "src/logo/booklog-white.png"
+        },
+        {
+            "name": "src/logo/booklog.png"
+        },
+        {
+            "name": "src/menu/help.svg"
+        },
+        {
+            "name": "src/menu/profile.svg"
+        },
+        {
+            "name": "src/menu-footer/edit-settings-sel.svg"
+        },
+        {
+            "name": "src/menu-footer/edit-settings.svg"
+        },
+        {
+            "name": "src/menu-footer/home-settings-sel.svg"
+        },
+        {
+            "name": "src/menu-footer/home-settings.svg"
+        },
+        {
+            "name": "src/menu-footer/menu-settings-sel.svg"
+        },
+        {
+            "name": "src/menu-footer/menu-settings.svg"
+        },
+        {
+            "name": "src/menu-footer/search-settings-sel.svg"
+        },
+        {
+            "name": "src/menu-footer/search-settings.svg"
+        },
+        {
+            "name": "src/test.svg"
+        },
+        {
+            "name": "src/title-icon.png"
+        },
+        {
+            "name": "tmp/Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "tmp/Component.js"
+        },
+        {
+            "name": "tmp/controller/App.controller.js"
+        },
+        {
+            "name": "tmp/controller/BaseController.js"
+        },
+        {
+            "name": "tmp/controller/Main.controller.js"
+        },
+        {
+            "name": "tmp/css/avatar-style.css"
+        },
+        {
+            "name": "tmp/css/busy-style.css"
+        },
+        {
+            "name": "tmp/css/button-style.css"
+        },
+        {
+            "name": "tmp/css/buttongrouping-style.css"
+        },
+        {
+            "name": "tmp/css/content-style.css"
+        },
+        {
+            "name": "tmp/css/date-style.css"
+        },
+        {
+            "name": "tmp/css/devices-style.css"
+        },
+        {
+            "name": "tmp/css/footer-style.css"
+        },
+        {
+            "name": "tmp/css/fullpage.css"
+        },
+        {
+            "name": "tmp/css/graph-style.css"
+        },
+        {
+            "name": "tmp/css/headertitle-style.css"
+        },
+        {
+            "name": "tmp/css/imagecloud-style.css"
+        },
+        {
+            "name": "tmp/css/loader-style.css"
+        },
+        {
+            "name": "tmp/css/menubutton-style.css"
+        },
+        {
+            "name": "tmp/css/profile-style.css"
+        },
+        {
+            "name": "tmp/css/redefined-styles.css"
+        },
+        {
+            "name": "tmp/css/scrollbar-style.css"
+        },
+        {
+            "name": "tmp/css/style.css"
+        },
+        {
+            "name": "tmp/css/summary-style.css"
+        },
+        {
+            "name": "tmp/css/swiper.css"
+        },
+        {
+            "name": "tmp/css/weekday-style.css"
+        },
+        {
+            "name": "tmp/custom/Avatar.js"
+        },
+        {
+            "name": "tmp/custom/Busy.js"
+        },
+        {
+            "name": "tmp/custom/Button.js"
+        },
+        {
+            "name": "tmp/custom/ButtonGrouping.js"
+        },
+        {
+            "name": "tmp/custom/Content.js"
+        },
+        {
+            "name": "tmp/custom/Date.js"
+        },
+        {
+            "name": "tmp/custom/Footer.js"
+        },
+        {
+            "name": "tmp/custom/Graph.js"
+        },
+        {
+            "name": "tmp/custom/HeaderTitle.js"
+        },
+        {
+            "name": "tmp/custom/Heart.js"
+        },
+        {
+            "name": "tmp/custom/ImageCloud.js"
+        },
+        {
+            "name": "tmp/custom/MenuButton.js"
+        },
+        {
+            "name": "tmp/custom/Profile.js"
+        },
+        {
+            "name": "tmp/custom/ScrollContainer.js"
+        },
+        {
+            "name": "tmp/custom/Summary.js"
+        },
+        {
+            "name": "tmp/custom/SummaryButton.js"
+        },
+        {
+            "name": "tmp/custom/VBox.js"
+        },
+        {
+            "name": "tmp/custom/Weekday.js"
+        },
+        {
+            "name": "tmp/i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "tmp/index.html"
+        },
+        {
+            "name": "tmp/lib/fullpage.extensions.min.js"
+        },
+        {
+            "name": "tmp/lib/fullpage.js"
+        },
+        {
+            "name": "tmp/lib/fullpage.min.js"
+        },
+        {
+            "name": "tmp/lib/fullpage.min.js.map"
+        },
+        {
+            "name": "tmp/lib/moment.js"
+        },
+        {
+            "name": "tmp/lib/swiper.js"
+        },
+        {
+            "name": "tmp/lib/swipervertical.js"
+        },
+        {
+            "name": "tmp/manifest.json"
+        },
+        {
+            "name": "tmp/model/formatter.js"
+        },
+        {
+            "name": "tmp/model/models.js"
+        },
+        {
+            "name": "tmp/models/ActivitiesCollection.json"
+        },
+        {
+            "name": "tmp/models/CompleteCollection.json"
+        },
+        {
+            "name": "tmp/models/IncomingCollection.json"
+        },
+        {
+            "name": "tmp/models/OngoingCollection.json"
+        },
+        {
+            "name": "tmp/models/UserCollection.json"
+        },
+        {
+            "name": "tmp/src/02.png"
+        },
+        {
+            "name": "tmp/src/03.png"
+        },
+        {
+            "name": "tmp/src/04.png"
+        },
+        {
+            "name": "tmp/src/05.png"
+        },
+        {
+            "name": "tmp/src/06.png"
+        },
+        {
+            "name": "tmp/src/07.png"
+        },
+        {
+            "name": "tmp/src/08.png"
+        },
+        {
+            "name": "tmp/src/09.png"
+        },
+        {
+            "name": "tmp/src/10.png"
+        },
+        {
+            "name": "tmp/src/avatar.png"
+        },
+        {
+            "name": "tmp/src/body/books-background.jpg"
+        },
+        {
+            "name": "tmp/src/body/health-background.png"
+        },
+        {
+            "name": "tmp/src/body/trips-background.png"
+        },
+        {
+            "name": "tmp/src/booklog-s.png"
+        },
+        {
+            "name": "tmp/src/health.png"
+        },
+        {
+            "name": "tmp/src/help.svg"
+        },
+        {
+            "name": "tmp/src/hr-repeat.png"
+        },
+        {
+            "name": "tmp/src/loader.svg"
+        },
+        {
+            "name": "tmp/src/logo/booklog-white.png"
+        },
+        {
+            "name": "tmp/src/logo/booklog.png"
+        },
+        {
+            "name": "tmp/src/menu/help.svg"
+        },
+        {
+            "name": "tmp/src/menu/profile.svg"
+        },
+        {
+            "name": "tmp/src/menu-footer/edit-settings-sel.svg"
+        },
+        {
+            "name": "tmp/src/menu-footer/edit-settings.svg"
+        },
+        {
+            "name": "tmp/src/menu-footer/home-settings-sel.svg"
+        },
+        {
+            "name": "tmp/src/menu-footer/home-settings.svg"
+        },
+        {
+            "name": "tmp/src/menu-footer/menu-settings-sel.svg"
+        },
+        {
+            "name": "tmp/src/menu-footer/menu-settings.svg"
+        },
+        {
+            "name": "tmp/src/menu-footer/search-settings-sel.svg"
+        },
+        {
+            "name": "tmp/src/menu-footer/search-settings.svg"
+        },
+        {
+            "name": "tmp/src/test.svg"
+        },
+        {
+            "name": "tmp/src/title-icon.png"
+        },
+        {
+            "name": "tmp/view/App.view.xml"
+        },
+        {
+            "name": "tmp/view/Main.view.xml"
+        },
+        {
+            "name": "tmp/view/fragment/Complete.fragment.xml"
+        },
+        {
+            "name": "tmp/view/fragment/Incoming.fragment.xml"
+        },
+        {
+            "name": "tmp/view/fragment/Main/Header.fragment.xml"
+        },
+        {
+            "name": "tmp/view/fragment/Ongoing.fragment.xml"
+        },
+        {
+            "name": "tmp-dbg/Component.js"
+        },
+        {
+            "name": "tmp-dbg/controller/App.controller.js"
+        },
+        {
+            "name": "tmp-dbg/controller/BaseController.js"
+        },
+        {
+            "name": "tmp-dbg/controller/Main.controller.js"
+        },
+        {
+            "name": "tmp-dbg/css/avatar-style.css"
+        },
+        {
+            "name": "tmp-dbg/css/busy-style.css"
+        },
+        {
+            "name": "tmp-dbg/css/button-style.css"
+        },
+        {
+            "name": "tmp-dbg/css/buttongrouping-style.css"
+        },
+        {
+            "name": "tmp-dbg/css/content-style.css"
+        },
+        {
+            "name": "tmp-dbg/css/date-style.css"
+        },
+        {
+            "name": "tmp-dbg/css/devices-style.css"
+        },
+        {
+            "name": "tmp-dbg/css/footer-style.css"
+        },
+        {
+            "name": "tmp-dbg/css/fullpage.css"
+        },
+        {
+            "name": "tmp-dbg/css/graph-style.css"
+        },
+        {
+            "name": "tmp-dbg/css/headertitle-style.css"
+        },
+        {
+            "name": "tmp-dbg/css/imagecloud-style.css"
+        },
+        {
+            "name": "tmp-dbg/css/loader-style.css"
+        },
+        {
+            "name": "tmp-dbg/css/menubutton-style.css"
+        },
+        {
+            "name": "tmp-dbg/css/profile-style.css"
+        },
+        {
+            "name": "tmp-dbg/css/redefined-styles.css"
+        },
+        {
+            "name": "tmp-dbg/css/scrollbar-style.css"
+        },
+        {
+            "name": "tmp-dbg/css/style.css"
+        },
+        {
+            "name": "tmp-dbg/css/summary-style.css"
+        },
+        {
+            "name": "tmp-dbg/css/swiper.css"
+        },
+        {
+            "name": "tmp-dbg/css/weekday-style.css"
+        },
+        {
+            "name": "tmp-dbg/custom/Avatar.js"
+        },
+        {
+            "name": "tmp-dbg/custom/Busy.js"
+        },
+        {
+            "name": "tmp-dbg/custom/Button.js"
+        },
+        {
+            "name": "tmp-dbg/custom/ButtonGrouping.js"
+        },
+        {
+            "name": "tmp-dbg/custom/Content.js"
+        },
+        {
+            "name": "tmp-dbg/custom/Date.js"
+        },
+        {
+            "name": "tmp-dbg/custom/Footer.js"
+        },
+        {
+            "name": "tmp-dbg/custom/Graph.js"
+        },
+        {
+            "name": "tmp-dbg/custom/HeaderTitle.js"
+        },
+        {
+            "name": "tmp-dbg/custom/Heart.js"
+        },
+        {
+            "name": "tmp-dbg/custom/ImageCloud.js"
+        },
+        {
+            "name": "tmp-dbg/custom/MenuButton.js"
+        },
+        {
+            "name": "tmp-dbg/custom/Profile.js"
+        },
+        {
+            "name": "tmp-dbg/custom/ScrollContainer.js"
+        },
+        {
+            "name": "tmp-dbg/custom/Summary.js"
+        },
+        {
+            "name": "tmp-dbg/custom/SummaryButton.js"
+        },
+        {
+            "name": "tmp-dbg/custom/VBox.js"
+        },
+        {
+            "name": "tmp-dbg/custom/Weekday.js"
+        },
+        {
+            "name": "tmp-dbg/lib/fullpage.extensions.min.js"
+        },
+        {
+            "name": "tmp-dbg/lib/fullpage.js"
+        },
+        {
+            "name": "tmp-dbg/lib/fullpage.min.js"
+        },
+        {
+            "name": "tmp-dbg/lib/moment.js"
+        },
+        {
+            "name": "tmp-dbg/lib/swiper.js"
+        },
+        {
+            "name": "tmp-dbg/lib/swipervertical.js"
+        },
+        {
+            "name": "tmp-dbg/model/formatter.js"
+        },
+        {
+            "name": "tmp-dbg/model/models.js"
+        },
+        {
+            "name": "view/App.view.xml"
+        },
+        {
+            "name": "view/Main.view.xml"
+        },
+        {
+            "name": "view/fragment/Complete.fragment.xml"
+        },
+        {
+            "name": "view/fragment/Incoming.fragment.xml"
+        },
+        {
+            "name": "view/fragment/Main/Header.fragment.xml"
+        },
+        {
+            "name": "view/fragment/Ongoing.fragment.xml"
+        }
+    ]
+}

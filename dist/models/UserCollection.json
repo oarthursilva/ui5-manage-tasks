@@ -1,0 +1,13 @@
+{
+	"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	"avatar" : "src/avatar.png",
+	"displayName" : "Aline Alcantara",
+	"firstName" : "Aline",
+	"lastName" : "Alcantara",
+	"initials" : "AL",
+	"Tasks" : {
+		"Do" : 35,
+		"Doing" : 15,
+		"Done": 50
+	}
+}

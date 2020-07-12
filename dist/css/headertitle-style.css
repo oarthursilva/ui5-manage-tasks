@@ -1,0 +1,1 @@
+.headertitle{font-size:x-small;text-align:center;text-transform:uppercase;position:relative;z-index:1}.headertitle:before{border-top:1px solid #273447;content:"";margin:0 auto;position:absolute;top:50%;left:1rem;right:1rem;bottom:0;width:90%;z-index:-1}.headertitle span{color:#445b7d;background:#1f2731;padding:0 5px}

@@ -1,0 +1,78 @@
+a.button, span.button, div.button {
+	/*line-height: 1.6;*/
+}
+
+.button-cta {
+    color: #fff;
+    background-color: transparent;
+    border-color: rgba(0,0,0,0);
+    font-weight: 600;
+}
+
+.button {
+    /*position: relative;*/
+    /*font-weight: 600;*/
+    /*border-color: #cfcfcf;*/
+    /*background-color: #fff;*/
+    /*height: 40px;*/
+}
+
+.button-block {
+    display: block;
+    width: 100%;
+}
+
+.button {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 5px 5px;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+	
+@media only screen and (max-width: 320px) {
+	.button-container {
+		margin-top: 10px;
+    	padding-left: 0;
+    	padding-right: 16px;
+    	margin-bottom: 5px;
+	}
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px){
+	.button-container {
+		margin-top: 10px;
+    	padding-left: 0;
+    	padding-right: 16px;
+    	margin-bottom: 5px;
+	}
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px){
+	.button-container {
+		margin-top: 10px;
+    	padding-left: 0;
+    	padding-right: 16px;
+    	margin-bottom: 5px;
+	}
+}
+@media only screen and (min-width: 1201px) {
+	.button-container {
+		margin-top: 10px;
+    	padding-left: 0;
+    	padding-right: 16px;
+    	margin-bottom: 5px;
+	}
+}

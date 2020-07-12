@@ -1,0 +1,16 @@
+<svg 
+	version="1.1" 
+	viewBox="0 0 48 48"
+	xml:space="preserve" 
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+	
+	<defs>
+		<style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style>
+	</defs>
+	<title/>
+	
+	<ellipse class="cls-1" cx="19.55" cy="19.5" rx="18.55" ry="18.5"/>
+	<line class="cls-1" x1="47" x2="32.96" y1="47" y2="33"/>
+	
+</svg>

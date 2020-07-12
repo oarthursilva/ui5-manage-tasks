@@ -34,6 +34,5 @@ sap.ui.define([
 			oModel.setDefaultBindingMode("TwoWay");
 			return oModel;
 		}
-		
 	};
 });

@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+
+		<title>Booklog</title>
+
+		<!-- Swiper JS -->
+		<script type="text/javascript" src="lib/swiper.js"></script>
+		<!-- Fullpage JS -->
+		<script type="text/javascript" src="lib/fullpage.js"></script>
+
+		<script id="sap-ui-bootstrap"
+			src="../../resources/sap-ui-core.js"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-theme="sap_belize"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-resourceroots='{"pt.com.booklog": "./"}'
+			data-sap-ui-frameOptions="trusted">
+		</script>
+
+		<link rel="stylesheet" 
+			href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+			integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
+			crossorigin="anonymous">
+
+		<script>
+			sap.ui.getCore().attachInit(function() {
+				//new sap.m.Shell({
+					app: new sap.ui.core.ComponentContainer({
+						width : "100%",
+						height : "100%",
+						name : "pt.com.booklog"
+					//})
+				}).placeAt("content");
+			});
+		</script>
+	</head>
+
+	<body class="sapUiBody" id="content">
+	</body>
+
+</html>

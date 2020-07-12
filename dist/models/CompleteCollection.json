@@ -1,0 +1,19 @@
+{
+	"CompleteCollection": [{
+		"Id": "1",
+		"Icon": "suitcase",
+		"Color": "#4873a8",
+		"Title": "Dublin",
+		"Category": "Trip",
+		"CurrentStatus": 3,
+		"EndDate": "2018-08-12"
+	}, {
+		"Id": "2",
+		"Icon": "suitcase",
+		"Color": "#4873a8",
+		"Title": "Sao Paolo",
+		"Category": "Trip",
+		"CurrentStatus": 3,
+		"EndDate": "2018-05-28"
+	}]
+}

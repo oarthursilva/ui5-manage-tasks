@@ -1,0 +1,57 @@
+.date-wrapper-content {
+	align-items: center;	
+	display: -webkit-flex; /* Safari */
+	-webkit-align-items: center; /* Safari 7.0+ */
+	display: flex;
+	
+	text-align: center;
+	vertical-align: middle;
+	
+}
+
+.date-wrapper-content-expand {
+	/*background-image: linear-gradient(0deg, #aac8f7 5%, #6287c2 50%);*/
+    line-height: normal;
+    
+    -webkit-animation: fadein 1s forwards;
+    transition: 1s all ease;
+    animation: fadein 1s forwards;
+    animation-delay: 0s;
+}
+
+						
+
+.date-wrapper-content span {
+	color: #fafafadd;
+    font-family: Lato, sans-serif;
+    font-weight: lighter;
+    letter-spacing: -.5px;
+    text-shadow: 0 0 0.125rem #819fd6;
+    text-transform: uppercase;
+}
+
+.date-wrapper-content .margin {
+	margin-top: .2rem;
+	margin-right: 1rem;
+}
+
+.date-wrapper-content .fontsize__large {
+	font-size: large!important;
+}
+
+.date-wrapper-content .fontsize__xx-large {
+	font-size: 48pt;
+}
+
+@keyframes fadein {
+  from { opacity: 0.2; }
+  to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+  from { opacity: 0.2; }
+  to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+  from { opacity: 0.2; }
+  to   { opacity: 1; }
+}

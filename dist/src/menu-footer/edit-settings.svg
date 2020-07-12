@@ -1,0 +1,21 @@
+<svg 
+	version="1.1" 
+	viewBox="0 0 48 48"
+	xml:space="preserve" 
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+	
+	<defs>
+		<style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style>
+	</defs>
+	<title/>
+	
+	<polyline class="cls-1" points="1 47 18.79 8.68 30.29 7.43 40.54 17.63 39.29 29.07 1 47"/>
+	<line class="cls-1" x1="1" x2="19.13" y1="47" y2="28.96"/>
+	<polyline class="cls-1" points="30.29 7.43 34.19 1 47 13.75 40.54 17.63"/>
+	<path class="cls-1" d="M24.5,23.61a3.63,3.63,0,0,1,0,5.15,3.67,3.67,0,0,1-5.18,0,3.63,3.63,0,0,1,0-5.15A3.67,3.67,0,0,1,24.5,23.61Z"/>
+	<line class="cls-1" x1="41" x2="33" y1="40" y2="40"/>
+	
+</svg>
+
+

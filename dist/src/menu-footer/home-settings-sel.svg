@@ -1,0 +1,17 @@
+<svg 
+	version="1.1" 
+	viewBox="0 0 48 48"
+	xml:space="preserve" 
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+
+	<defs>
+		<style>.cls-1{fill:none;stroke:#333333;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;}</style>
+	</defs>
+	<title/>
+	
+	<rect class="cls-1" height="25" width="38" x="1" y="7"/>
+	<polyline class="cls-1" points="39 17 47 17 47 42 9 42 9 32"/>
+	<line class="cls-1" x1="10" x2="30" y1="17" y2="17"/>
+	<line class="cls-1" x1="10" x2="30" y1="23" y2="23"/>
+</svg>
